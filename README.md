@@ -1,12 +1,10 @@
 # Symfony 6 project with Docker (NGINX, PHP8.1, PostGreSQL)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 Pré-requis:
-- Avoir installé Docker
-- Avoir installé Docker-compose
-- Avoir installé git
-- Avoir installé NPM
+- Avoir installé Docker: https://docs.docker.com/engine/install/ubuntu/
+- Avoir installé Docker-compose : https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
+- Avoir installé git : https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git
+- Avoir installé NPM : https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/
 
 ## Visualisation du projet
 
