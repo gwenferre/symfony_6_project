@@ -1,0 +1,17 @@
+
+###> symfony/framework-bundle ###
+/var/*
+/vendor/
+/node_modules/
+/migrations/*
+/public/build/*
+###< symfony/framework-bundle ###
+
+###> symfony/webpack-encore-bundle ###
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
+.env
+.idea
+package-lock.json
+composer.lock

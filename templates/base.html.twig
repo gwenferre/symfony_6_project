@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <title>Symfony Project Base</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block steelsheets %}
+        <link rel="stylesheet" href="{{ asset('build/app.css') }}">
+    {% endblock %}
+</head>
+<body>
+
+Hello world !
+
+{% block javascripts %}
+    <script src="{{ asset('build/runtime.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ asset('build/app.js') }}" crossorigin="anonymous"></script>
+{% endblock %}
+</body>
+</html>
